@@ -28,10 +28,10 @@ def main():
     item1 = prompt_for_item(1)
     item2 = prompt_for_item(2)
 
-    print("TOTAL COST")
+    print("\nTOTAL COST")
     item1.print_item_cost()
     item2.print_item_cost()
-    print(f"Total: ${item1.total_cost()+item2.total_cost():.2f}")
+    print(f"\nTotal: ${item1.total_cost()+item2.total_cost():.2f}")
 
 if __name__ == "__main__":
     main()
