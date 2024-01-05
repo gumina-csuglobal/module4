@@ -15,7 +15,7 @@ class ItemToPurchase:
 
 
 def prompt_for_item(num):
-    print(f"Item {num}")
+    print(f"\nItem {num}")
     item = ItemToPurchase()
     item.item_name = input("Enter the item name:\n")
     item.item_price = float(input("Enter the item price:\n"))
